@@ -1,11 +1,11 @@
 {
- "checked_at": "2026-09-07",
- "manifest_pdfs": 2136,
- "transcripts_md": 1615,
- "parsed_rows": 1613,
+ "checked_at": "2026-09-08",
+ "manifest_pdfs": 2166,
+ "transcripts_md": 1634,
+ "parsed_rows": 1632,
  "parse_issue_rows": 235,
- "performance_rows": 1430,
- "backtest_as_of": "2026-09-07",
+ "performance_rows": 1449,
+ "backtest_as_of": "2026-09-08",
  "strategy_count": 26,
  "signals_latest_exists": true
 }

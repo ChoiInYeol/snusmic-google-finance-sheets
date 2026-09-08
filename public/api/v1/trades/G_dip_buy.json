@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T15:38:57+00:00",
+  "generated_at": "2026-09-08T14:31:06+00:00",
   "strategy_key": "G_dip_buy",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -21667,6 +21667,42 @@
           "source_file": "2025-08-31_STAR_인텔리안테크.md",
           "target_price": 71700.0,
           "stated_upside_pct": 55.7003
+        }
+      ]
+    },
+    {
+      "ticker": "066970",
+      "market": "KR",
+      "name": "엘앤에프",
+      "entry_date": "2026-08-21",
+      "exit_date": "2026-09-08",
+      "entry_price": 104700.0,
+      "exit_price": 116300.0,
+      "return_pct": 10.41,
+      "days": 18,
+      "exit_reason": "dip_atr3_stop",
+      "entry_reason": "발간일(2026-05-26) 종가 대비 −20% 하락 도달 → 익일 시가 진입 (딥바이)",
+      "trigger_reports": [
+        {
+          "school": "ewha",
+          "report_date": "2026-05-26",
+          "source_file": "2026-05-26_[260526] (KEYSS 대회 우수상) 엘앤에프(066970).md",
+          "target_price": 290700.0,
+          "stated_upside_pct": 84.4543
+        },
+        {
+          "school": "star",
+          "report_date": "2025-12-12",
+          "source_file": "2025-12-12_STAR_엘앤에프.md",
+          "target_price": 204200.0,
+          "stated_upside_pct": 59.0343
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-11-06",
+          "source_file": "2025-12-08_엘앤에프(066970, KOSPI), 엘앤에프, 충전 완료! YIG Research.md",
+          "target_price": 184000.0,
+          "stated_upside_pct": 44.0877
         }
       ]
     }

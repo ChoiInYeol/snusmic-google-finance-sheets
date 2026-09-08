@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T15:38:57+00:00",
+  "generated_at": "2026-09-08T14:31:06+00:00",
   "strategy_key": "Q_kangto_trend",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -104,7 +104,7 @@
       "return_pct": -11.21,
       "days": 53,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -126,7 +126,7 @@
       "return_pct": 2.33,
       "days": 15,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 75 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -204,6 +204,28 @@
       ]
     },
     {
+      "ticker": "161390",
+      "market": "KR",
+      "name": "한국타이어앤테크놀로지",
+      "entry_date": "2020-07-07",
+      "exit_date": "2020-07-13",
+      "entry_price": 27650.0,
+      "exit_price": 25100.0,
+      "return_pct": -9.77,
+      "days": 6,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 59 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "trigger_reports": [
+        {
+          "school": "yig",
+          "report_date": "2019-11-01",
+          "source_file": "2025-11-10_한국타이어앤테크놀로지 (161390, KS), 고무고무~ 타이어! (발간일 231125) YIG Research.md",
+          "target_price": 71500.0,
+          "stated_upside_pct": 125.9084
+        }
+      ]
+    },
+    {
       "ticker": "097950",
       "market": "KR",
       "name": "CJ제일제당",
@@ -258,7 +280,7 @@
       "return_pct": 7.98,
       "days": 16,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 74 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -324,7 +346,7 @@
       "return_pct": -8.91,
       "days": 7,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -346,7 +368,7 @@
       "return_pct": 23.26,
       "days": 14,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 55 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 56 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -354,28 +376,6 @@
           "source_file": "2019-08-11_Equity Research, 동양피엔에프.md",
           "target_price": 12600.0,
           "stated_upside_pct": 37.8556
-        }
-      ]
-    },
-    {
-      "ticker": "161390",
-      "market": "KR",
-      "name": "한국타이어앤테크놀로지",
-      "entry_date": "2020-07-31",
-      "exit_date": "2020-08-14",
-      "entry_price": 27200.0,
-      "exit_price": 33728.0,
-      "return_pct": 23.26,
-      "days": 14,
-      "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 52 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
-      "trigger_reports": [
-        {
-          "school": "yig",
-          "report_date": "2019-11-01",
-          "source_file": "2025-11-10_한국타이어앤테크놀로지 (161390, KS), 고무고무~ 타이어! (발간일 231125) YIG Research.md",
-          "target_price": 71500.0,
-          "stated_upside_pct": 125.9084
         }
       ]
     },
@@ -456,7 +456,7 @@
       "return_pct": -10.11,
       "days": 33,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -478,7 +478,7 @@
       "return_pct": 14.6,
       "days": 20,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 55 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 56 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -515,14 +515,14 @@
       "ticker": "161390",
       "market": "KR",
       "name": "한국타이어앤테크놀로지",
-      "entry_date": "2020-07-31",
+      "entry_date": "2020-08-06",
       "exit_date": "2020-08-20",
-      "entry_price": 27200.0,
+      "entry_price": 28350.0,
       "exit_price": 30550.0,
-      "return_pct": 11.64,
-      "days": 20,
+      "return_pct": 7.11,
+      "days": 14,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 52 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 56 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -698,7 +698,7 @@
       "return_pct": -7.97,
       "days": 19,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -764,7 +764,7 @@
       "return_pct": -13.69,
       "days": 12,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 55 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 56 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -852,7 +852,7 @@
       "return_pct": 1.86,
       "days": 20,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1072,7 +1072,7 @@
       "return_pct": 23.26,
       "days": 7,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1094,7 +1094,7 @@
       "return_pct": 23.26,
       "days": 3,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1138,7 +1138,7 @@
       "return_pct": 3.13,
       "days": 53,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -1204,7 +1204,7 @@
       "return_pct": 15.36,
       "days": 15,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1248,7 +1248,7 @@
       "return_pct": -8.72,
       "days": 19,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1270,7 +1270,7 @@
       "return_pct": 44.04,
       "days": 29,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1358,7 +1358,7 @@
       "return_pct": -8.69,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 59 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 60 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -1402,7 +1402,7 @@
       "return_pct": -9.91,
       "days": 21,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1424,7 +1424,7 @@
       "return_pct": -8.98,
       "days": 29,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 84 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 85 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -1490,7 +1490,7 @@
       "return_pct": 23.26,
       "days": 22,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1512,7 +1512,7 @@
       "return_pct": 23.26,
       "days": 7,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1534,7 +1534,7 @@
       "return_pct": 14.83,
       "days": 14,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1556,7 +1556,7 @@
       "return_pct": 8.83,
       "days": 41,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1666,7 +1666,7 @@
       "return_pct": -8.36,
       "days": 45,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1688,7 +1688,7 @@
       "return_pct": -9.51,
       "days": 21,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 87 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 88 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1710,7 +1710,7 @@
       "return_pct": -7.35,
       "days": 3,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 91 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1732,7 +1732,7 @@
       "return_pct": -0.6,
       "days": 43,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1842,7 +1842,7 @@
       "return_pct": 49.91,
       "days": 80,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1908,7 +1908,7 @@
       "return_pct": 6.8,
       "days": 36,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 51 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 50 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2040,7 +2040,7 @@
       "return_pct": -10.26,
       "days": 17,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -2106,7 +2106,7 @@
       "return_pct": -7.67,
       "days": 12,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 45 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 44 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2245,7 +2245,7 @@
       "return_pct": 23.26,
       "days": 57,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2355,7 +2355,7 @@
       "return_pct": 3.29,
       "days": 61,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2377,7 +2377,7 @@
       "return_pct": 4.35,
       "days": 66,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2399,7 +2399,7 @@
       "return_pct": -8.74,
       "days": 23,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2780,7 +2780,7 @@
       "return_pct": -8.54,
       "days": 13,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -3110,7 +3110,7 @@
       "return_pct": -8.81,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 70 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -3139,7 +3139,7 @@
       "return_pct": -13.79,
       "days": 6,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -3439,7 +3439,7 @@
       "return_pct": -11.06,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 70 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3761,7 +3761,7 @@
       "return_pct": -9.52,
       "days": 24,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 71 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 70 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3827,7 +3827,7 @@
       "return_pct": 23.26,
       "days": 31,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 85 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 84 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -3856,7 +3856,7 @@
       "return_pct": 23.26,
       "days": 15,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3878,7 +3878,7 @@
       "return_pct": 3.84,
       "days": 20,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3951,7 +3951,7 @@
       "return_pct": 7.46,
       "days": 61,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 65 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 64 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3995,7 +3995,7 @@
       "return_pct": 15.86,
       "days": 45,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 85 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 84 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -4024,7 +4024,7 @@
       "return_pct": -11.7,
       "days": 14,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -4053,7 +4053,7 @@
       "return_pct": -7.85,
       "days": 6,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 40 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 39 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -4097,7 +4097,7 @@
       "return_pct": -1.2,
       "days": 19,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -4148,7 +4148,7 @@
       "return_pct": 2.12,
       "days": 27,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 84 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 83 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -4250,7 +4250,7 @@
       "return_pct": -7.81,
       "days": 22,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 91 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -4301,7 +4301,7 @@
       "return_pct": -10.2,
       "days": 20,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 55 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 54 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -4323,7 +4323,7 @@
       "return_pct": -7.97,
       "days": 37,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -4345,7 +4345,7 @@
       "return_pct": -8.06,
       "days": 25,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 72 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -4411,7 +4411,7 @@
       "return_pct": -10.37,
       "days": 58,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -4477,7 +4477,7 @@
       "return_pct": -9.54,
       "days": 33,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -4521,7 +4521,7 @@
       "return_pct": -9.5,
       "days": 70,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 64 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 63 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -4703,7 +4703,7 @@
       "return_pct": -9.04,
       "days": 6,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -4827,7 +4827,7 @@
       "return_pct": 7.36,
       "days": 31,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 94 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -4849,7 +4849,7 @@
       "return_pct": -1.59,
       "days": 23,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -4929,7 +4929,7 @@
       "return_pct": -8.17,
       "days": 29,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -5031,7 +5031,7 @@
       "return_pct": -8.32,
       "days": 35,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -5148,7 +5148,7 @@
       "return_pct": 0.11,
       "days": 39,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 94 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -5345,7 +5345,7 @@
       "return_pct": -10.61,
       "days": 10,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -5637,7 +5637,7 @@
       "return_pct": -10.45,
       "days": 19,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -6243,7 +6243,7 @@
       "return_pct": 6.54,
       "days": 48,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 55 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 54 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -6316,7 +6316,7 @@
       "return_pct": -8.14,
       "days": 34,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 63 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -6469,7 +6469,7 @@
       "return_pct": 23.26,
       "days": 22,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -6687,7 +6687,7 @@
       "return_pct": 45.11,
       "days": 43,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 61 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 62 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -6716,7 +6716,7 @@
       "return_pct": -9.71,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 70 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 71 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -6862,7 +6862,7 @@
       "return_pct": -9.32,
       "days": 17,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -7188,7 +7188,7 @@
       "return_pct": 23.26,
       "days": 20,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -7479,7 +7479,7 @@
       "return_pct": 17.87,
       "days": 40,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -8127,7 +8127,7 @@
       "return_pct": -10.49,
       "days": 12,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -9206,7 +9206,7 @@
       "return_pct": 21.63,
       "days": 111,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -9366,7 +9366,7 @@
       "return_pct": 1.62,
       "days": 32,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 56 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 57 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "yig",
@@ -9497,7 +9497,7 @@
       "return_pct": 23.26,
       "days": 44,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 65 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -9751,7 +9751,7 @@
       "return_pct": 23.58,
       "days": 145,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -9897,7 +9897,7 @@
       "return_pct": 8.12,
       "days": 70,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 65 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -10202,7 +10202,7 @@
       "return_pct": -9.53,
       "days": 21,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -10427,7 +10427,7 @@
       "return_pct": 6.0,
       "days": 3,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 72 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -10492,7 +10492,7 @@
       "return_pct": 23.26,
       "days": 23,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -10645,7 +10645,7 @@
       "return_pct": 5.34,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -10776,7 +10776,7 @@
       "return_pct": 29.7,
       "days": 43,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -10863,7 +10863,7 @@
       "return_pct": -2.23,
       "days": 38,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -10892,7 +10892,7 @@
       "return_pct": -8.01,
       "days": 21,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 74 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 75 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -11718,7 +11718,7 @@
       "return_pct": -0.05,
       "days": 41,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 83 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 84 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -11740,7 +11740,7 @@
       "return_pct": -8.68,
       "days": 22,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -12051,7 +12051,7 @@
       "return_pct": 23.26,
       "days": 3,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -12073,7 +12073,7 @@
       "return_pct": -10.34,
       "days": 6,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 87 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 86 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -12233,7 +12233,7 @@
       "return_pct": -16.73,
       "days": 22,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -12393,7 +12393,7 @@
       "return_pct": 23.26,
       "days": 2,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 96 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 95 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -12603,7 +12603,7 @@
       "return_pct": 16.25,
       "days": 11,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 96 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 95 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -12741,7 +12741,7 @@
       "return_pct": 23.26,
       "days": 19,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 72 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -12843,7 +12843,7 @@
       "return_pct": 22.68,
       "days": 33,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 72 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -12973,7 +12973,7 @@
       "return_pct": -13.25,
       "days": 12,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 80 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -13002,7 +13002,7 @@
       "return_pct": -10.45,
       "days": 63,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -13329,7 +13329,7 @@
       "return_pct": -1.17,
       "days": 32,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 88 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -13445,7 +13445,7 @@
       "return_pct": -12.2,
       "days": 25,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 84 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 83 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -13481,7 +13481,7 @@
       "return_pct": -9.83,
       "days": 24,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 91 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 90 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -14503,7 +14503,7 @@
       "return_pct": -2.44,
       "days": 43,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 86 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 85 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -14546,7 +14546,7 @@
       "return_pct": 0.31,
       "days": 29,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 66 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 65 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -14575,7 +14575,7 @@
       "return_pct": -8.56,
       "days": 11,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 60 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (4유닛)",
+      "entry_reason": "깡토 추세추종: RS 59 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (4유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -15437,7 +15437,7 @@
       "return_pct": -10.84,
       "days": 3,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 69 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -16662,7 +16662,7 @@
       "return_pct": 23.26,
       "days": 34,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -16843,7 +16843,7 @@
       "return_pct": -9.0,
       "days": 6,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 73 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 74 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -17190,7 +17190,7 @@
       "return_pct": 15.9,
       "days": 55,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 77 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -17892,7 +17892,7 @@
       "return_pct": 4.53,
       "days": 12,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 68 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (4유닛)",
+      "entry_reason": "깡토 추세추종: RS 67 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (4유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -18080,7 +18080,7 @@
       "return_pct": -10.14,
       "days": 16,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 79 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 78 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -18500,7 +18500,7 @@
       "return_pct": -9.55,
       "days": 8,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 76 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 75 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -19428,7 +19428,7 @@
       "return_pct": 23.26,
       "days": 16,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 94 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 95 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -19725,7 +19725,7 @@
       "return_pct": 46.6,
       "days": 35,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 94 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 95 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -21760,7 +21760,7 @@
       "return_pct": 3.17,
       "days": 13,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 91 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -22621,7 +22621,7 @@
       "return_pct": 22.98,
       "days": 2,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 88 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -22954,7 +22954,7 @@
       "return_pct": 28.64,
       "days": 13,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 88 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 89 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "star",
@@ -23157,7 +23157,7 @@
       "return_pct": -9.69,
       "days": 4,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 92 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (4유닛)",
+      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (4유닛)",
       "trigger_reports": [
         {
           "school": "voera",
@@ -23715,7 +23715,7 @@
       "return_pct": 23.26,
       "days": 0,
       "exit_reason": "q_half_+3R",
-      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 94 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "kuvic",
@@ -23737,7 +23737,7 @@
       "return_pct": -15.39,
       "days": 5,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 93 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
+      "entry_reason": "깡토 추세추종: RS 94 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (2유닛)",
       "trigger_reports": [
         {
           "school": "kuvic",
@@ -24112,7 +24112,7 @@
       "return_pct": -7.24,
       "days": 10,
       "exit_reason": "q_stop",
-      "entry_reason": "깡토 추세추종: RS 81 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "entry_reason": "깡토 추세추종: RS 82 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
       "trigger_reports": [
         {
           "school": "smic",
@@ -24409,6 +24409,42 @@
           "source_file": "2025-11-11_지니언스 (263860, KQ), K-보안 데몬 헌터스 (발간일 250718) YIG Research.md",
           "target_price": 32500.0,
           "stated_upside_pct": 48.0638
+        }
+      ]
+    },
+    {
+      "ticker": "204620",
+      "market": "KR",
+      "name": "글로벌텍스프리",
+      "entry_date": "2026-08-31",
+      "exit_date": "2026-09-08",
+      "entry_price": 5790.0,
+      "exit_price": 5390.0,
+      "return_pct": -7.47,
+      "days": 8,
+      "exit_reason": "q_stop",
+      "entry_reason": "깡토 추세추종: RS 85 ≥ KOSPI RS + 60일 신고가 돌파 + 거래량 ≥ 1.5×20일평균 → 익일 시가 진입 (1유닛)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2023-04-13",
+          "source_file": "2023-04-13_equity-research-글로벌텍스프리-2.md",
+          "target_price": 3800.0,
+          "stated_upside_pct": 13.5345
+        },
+        {
+          "school": "yig",
+          "report_date": "2025-02-21",
+          "source_file": "2025-11-11_글로벌텍스프리 (204620, KQ), Goodbye Tax, Feel me free~ (발간일 250221) YIG Res.md",
+          "target_price": 5830.0,
+          "stated_upside_pct": 40.3129
+        },
+        {
+          "school": "star",
+          "report_date": "2025-06-19",
+          "source_file": "2025-06-19_KEYSS_STAR_글로벌텍스프리.md",
+          "target_price": 9110.0,
+          "stated_upside_pct": 31.268
         }
       ]
     }

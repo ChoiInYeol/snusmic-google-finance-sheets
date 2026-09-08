@@ -1,19 +1,343 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-09-07T15:38:58+00:00",
+ "generated_at": "2026-09-08T14:31:07+00:00",
  "method": "신호 스냅샷(append-only, 커밋 시점 박제)의 매수 신호를 이후 실현 시세로 채점. 진입 = 신호일 익일 시가, 수익률 = 로컬 통화 종가 기준, 동일 티커 7일 내 중복 신호 제외. 전략 규칙(스탑·슬롯) 재현이 아니라 공표된 신호 자체의 전진 성적.",
  "summary": {
-  "n_signals": 9,
+  "n_signals": 27,
   "n_tracking": 9,
-  "avg_return_pct": -22.67,
-  "win_rate_pct": 11.1,
-  "best_pct": 7.58,
-  "worst_pct": -51.3,
+  "avg_return_pct": -24.08,
+  "win_rate_pct": 22.2,
+  "best_pct": 6.24,
+  "worst_pct": -52.3,
   "first_snapshot": "2026-06-11",
-  "last_snapshot": "2026-09-07",
-  "n_snapshots": 52
+  "last_snapshot": "2026-09-08",
+  "n_snapshots": 53
  },
  "entries": [
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "008770",
+   "market": "KR",
+   "name": "호텔신라",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "020000",
+   "market": "KR",
+   "name": "한섬",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "033780",
+   "market": "KR",
+   "name": "KT&G",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "041830",
+   "market": "KR",
+   "name": "인바디",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "042520",
+   "market": "KR",
+   "name": "한스바이오메드",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "044490",
+   "market": "KR",
+   "name": "태웅",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "077970",
+   "market": "KR",
+   "name": "STX엔진",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "082920",
+   "market": "KR",
+   "name": "비츠로셀",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "108490",
+   "market": "KR",
+   "name": "로보티즈",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "131290",
+   "market": "KR",
+   "name": "티에스이",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "161390",
+   "market": "KR",
+   "name": "한국타이어앤테크놀로지",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "170790",
+   "market": "KR",
+   "name": "파이오링크",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "222800",
+   "market": "KR",
+   "name": "심텍",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "226950",
+   "market": "KR",
+   "name": "올릭스",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "260970",
+   "market": "KR",
+   "name": "에스앤디",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "263860",
+   "market": "KR",
+   "name": "지니언스",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "281820",
+   "market": "KR",
+   "name": "케이씨텍",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
+  {
+   "signal_date": "2026-09-08",
+   "ticker": "419530",
+   "market": "KR",
+   "name": "SAMG엔터",
+   "basis_price": null,
+   "entry_date": null,
+   "entry_price": null,
+   "current_price": null,
+   "return_pct": null,
+   "peak_pct": null,
+   "days": 0,
+   "status": "pending",
+   "trigger_schools": [
+    "star"
+   ],
+   "headline_strategy": "U_chandelier_scaleout"
+  },
   {
    "signal_date": "2026-06-12",
    "ticker": "010060",
@@ -22,10 +346,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 304000.0,
-   "current_price": 222000.0,
-   "return_pct": -26.97,
+   "current_price": 215500.0,
+   "return_pct": -29.11,
    "peak_pct": 4.61,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -40,10 +364,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 1091000.0,
-   "current_price": 586000.0,
-   "return_pct": -46.29,
+   "current_price": 545000.0,
+   "return_pct": -50.05,
    "peak_pct": 17.6,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -58,10 +382,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 375500.0,
-   "current_price": 272500.0,
-   "return_pct": -27.43,
+   "current_price": 273000.0,
+   "return_pct": -27.3,
    "peak_pct": 3.86,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -76,10 +400,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 50700.0,
-   "current_price": 37450.0,
-   "return_pct": -26.13,
+   "current_price": 36300.0,
+   "return_pct": -28.4,
    "peak_pct": -2.66,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -94,10 +418,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 186000.0,
-   "current_price": 152700.0,
-   "return_pct": -17.9,
+   "current_price": 148100.0,
+   "return_pct": -20.38,
    "peak_pct": 16.94,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -112,10 +436,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 163500.0,
-   "current_price": 175900.0,
-   "return_pct": 7.58,
+   "current_price": 173700.0,
+   "return_pct": 6.24,
    "peak_pct": 13.88,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -130,10 +454,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 169800.0,
-   "current_price": 82700.0,
-   "return_pct": -51.3,
+   "current_price": 81000.0,
+   "return_pct": -52.3,
    "peak_pct": -3.71,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -148,10 +472,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 412000.0,
-   "current_price": 362500.0,
-   "return_pct": -12.01,
+   "current_price": 348500.0,
+   "return_pct": -15.41,
    "peak_pct": 2.06,
-   "days": 84,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -166,10 +490,10 @@
    "basis_price": null,
    "entry_date": "2026-06-15",
    "entry_price": 152.81,
-   "current_price": 147.38,
-   "return_pct": -3.55,
+   "current_price": 152.845,
+   "return_pct": 0.02,
    "peak_pct": 10.58,
-   "days": 81,
+   "days": 85,
    "status": "tracking",
    "trigger_schools": [
     "star"
@@ -229,6 +553,7 @@
   "2026-09-02": "U_chandelier_scaleout",
   "2026-09-03": "U_chandelier_scaleout",
   "2026-09-04": "U_chandelier_scaleout",
-  "2026-09-07": "U_chandelier_scaleout"
+  "2026-09-07": "U_chandelier_scaleout",
+  "2026-09-08": "U_chandelier_scaleout"
  }
 }

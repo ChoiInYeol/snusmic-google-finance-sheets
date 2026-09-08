@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T15:38:57+00:00",
+  "generated_at": "2026-09-08T14:31:06+00:00",
   "strategy_key": "I_supertrend",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -1643,28 +1643,6 @@
           "source_file": "2021-02-20_[210220] 현대미포조선(010620).md",
           "target_price": 69100.0,
           "stated_upside_pct": 36.0236
-        }
-      ]
-    },
-    {
-      "ticker": "033780",
-      "market": "KR",
-      "name": "KT&G",
-      "entry_date": "2021-03-19",
-      "exit_date": "2021-07-12",
-      "entry_price": 82900.0,
-      "exit_price": 82600.0,
-      "return_pct": -0.96,
-      "days": 115,
-      "exit_reason": "supertrend_bearish_flip",
-      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: ewha 2021-03-13)",
-      "trigger_reports": [
-        {
-          "school": "ewha",
-          "report_date": "2021-03-13",
-          "source_file": "2021-03-13_[210313] KT&G(033780).md",
-          "target_price": 110136.0,
-          "stated_upside_pct": 36.9851
         }
       ]
     },
@@ -5274,28 +5252,6 @@
       ]
     },
     {
-      "ticker": "419530",
-      "market": "KR",
-      "name": "SAMG엔터",
-      "entry_date": "2023-09-01",
-      "exit_date": "2023-09-27",
-      "entry_price": 24250.0,
-      "exit_price": 22750.0,
-      "return_pct": -6.75,
-      "days": 26,
-      "exit_reason": "supertrend_bearish_flip",
-      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: star 2023-07-02)",
-      "trigger_reports": [
-        {
-          "school": "star",
-          "report_date": "2023-07-02",
-          "source_file": "2023-07-02_STAR_SAMG엔터.md",
-          "target_price": 37590.0,
-          "stated_upside_pct": 63.7908
-        }
-      ]
-    },
-    {
       "ticker": "001060",
       "market": "KR",
       "name": "JW중외제약",
@@ -5677,6 +5633,35 @@
           "source_file": "2023-10-04_STAR_감성코퍼레이션.md",
           "target_price": 5370.0,
           "stated_upside_pct": 58.1738
+        }
+      ]
+    },
+    {
+      "ticker": "230240",
+      "market": "KR",
+      "name": "에치에프알",
+      "entry_date": "2023-11-22",
+      "exit_date": "2023-12-21",
+      "entry_price": 20000.0,
+      "exit_price": 18170.0,
+      "return_pct": -9.69,
+      "days": 29,
+      "exit_reason": "supertrend_bearish_flip",
+      "entry_reason": "리포트 발간 시점 슈퍼트렌드(10,3) 상방 → 익일 시가 진입 (트리거: kuvic 2023-11-21, smic 2020-05-06)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2020-05-06",
+          "source_file": "2020-05-06_Equity Research, 에치에프알.md",
+          "target_price": 45900.0,
+          "stated_upside_pct": 25.3277
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2023-11-21",
+          "source_file": "2023-11-21_에치에프알 - Honorable Future Returned.md",
+          "target_price": 77000.0,
+          "stated_upside_pct": 277.451
         }
       ]
     },
@@ -6109,6 +6094,35 @@
       ]
     },
     {
+      "ticker": "047810",
+      "market": "KR",
+      "name": "한국항공우주",
+      "entry_date": "2023-12-21",
+      "exit_date": "2024-01-31",
+      "entry_price": 48850.0,
+      "exit_price": 51000.0,
+      "return_pct": 3.78,
+      "days": 41,
+      "exit_reason": "supertrend_bearish_flip",
+      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: kuvic 2023-11-19, smic 2022-12-08)",
+      "trigger_reports": [
+        {
+          "school": "smic",
+          "report_date": "2022-12-08",
+          "source_file": "2022-12-08_equity-research-한국항공우주.md",
+          "target_price": 67000.0,
+          "stated_upside_pct": 45.1788
+        },
+        {
+          "school": "kuvic",
+          "report_date": "2023-11-19",
+          "source_file": "2023-11-19_한국항공우주 - 작전명 신세KAI.md",
+          "target_price": 69400.0,
+          "stated_upside_pct": 50.8696
+        }
+      ]
+    },
+    {
       "ticker": "140860",
       "market": "KR",
       "name": "파크시스템스",
@@ -6134,28 +6148,6 @@
           "source_file": "2024-01-20_[240120] 파크시스템스(140860).md",
           "target_price": 254300.0,
           "stated_upside_pct": 37.832
-        }
-      ]
-    },
-    {
-      "ticker": "281820",
-      "market": "KR",
-      "name": "케이씨텍",
-      "entry_date": "2023-11-16",
-      "exit_date": "2024-02-02",
-      "entry_price": 23100.0,
-      "exit_price": 28000.0,
-      "return_pct": 20.49,
-      "days": 78,
-      "exit_reason": "supertrend_bearish_flip",
-      "entry_reason": "리포트 발간 후 3개월 내 슈퍼트렌드(10,3) 상방 전환 → 익일 시가 진입 (트리거: yig 2023-09-14)",
-      "trigger_reports": [
-        {
-          "school": "yig",
-          "report_date": "2023-09-14",
-          "source_file": "2025-11-06_케이씨텍(281820, KS), 슬러리 돈워리! (발간일 230916) YIG Research.md",
-          "target_price": 27580.0,
-          "stated_upside_pct": 21.766
         }
       ]
     },

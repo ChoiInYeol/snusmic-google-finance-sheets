@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T15:38:57+00:00",
+  "generated_at": "2026-09-08T14:31:06+00:00",
   "strategy_key": "O_mtt_alpha16",
   "disclaimer": "These are backtested signals for research purposes only. They do NOT constitute investment advice. Past performance does not guarantee future results. All trading decisions and their consequences are solely your responsibility.",
   "disclaimer_ko": "이 데이터는 백테스트 시뮬레이션 결과이며 연구 목적으로만 제공됩니다. 투자 권유가 아닙니다. 과거 성과가 미래 수익을 보장하지 않습니다. 실매매로 인한 모든 손익의 책임은 전적으로 사용자에게 있습니다.",
@@ -98,11 +98,11 @@
       "market": "KR",
       "name": "SKC",
       "entry_date": "2020-06-23",
-      "exit_date": "2020-07-03",
+      "exit_date": "2020-07-09",
       "entry_price": 59967.0,
-      "exit_price": 59310.0,
-      "return_pct": -1.69,
-      "days": 10,
+      "exit_price": 61377.0,
+      "return_pct": 1.74,
+      "days": 16,
       "exit_reason": "mtt_rs_exit_<82",
       "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
       "trigger_reports": [
@@ -116,24 +116,24 @@
       ]
     },
     {
-      "ticker": "011790",
+      "ticker": "097950",
       "market": "KR",
-      "name": "SKC",
-      "entry_date": "2020-07-07",
-      "exit_date": "2020-07-17",
-      "entry_price": 61565.0,
-      "exit_price": 63445.0,
-      "return_pct": 2.44,
-      "days": 10,
-      "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
+      "name": "CJ제일제당",
+      "entry_date": "2020-07-02",
+      "exit_date": "2020-07-20",
+      "entry_price": 342000.0,
+      "exit_price": 380000.0,
+      "return_pct": 10.45,
+      "days": 18,
+      "exit_reason": "mtt_stop",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 80≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
-          "school": "smic",
-          "report_date": "2020-05-31",
-          "source_file": "2020-05-31_Equity Research, SKC.md",
-          "target_price": 70292.0,
-          "stated_upside_pct": 30.9707
+          "school": "voera",
+          "report_date": "2020-05-17",
+          "source_file": "undated_[BUY] CJ제일제당_사재기는 거들뿐.md",
+          "target_price": 395000.0,
+          "stated_upside_pct": 28.0389
         }
       ]
     },
@@ -148,7 +148,7 @@
       "return_pct": -0.23,
       "days": 28,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -160,24 +160,24 @@
       ]
     },
     {
-      "ticker": "097950",
+      "ticker": "011790",
       "market": "KR",
-      "name": "CJ제일제당",
-      "entry_date": "2020-07-08",
-      "exit_date": "2020-07-23",
-      "entry_price": 368500.0,
-      "exit_price": 371000.0,
-      "return_pct": 0.08,
-      "days": 15,
+      "name": "SKC",
+      "entry_date": "2020-07-10",
+      "exit_date": "2020-07-22",
+      "entry_price": 65607.0,
+      "exit_price": 63633.0,
+      "return_pct": -3.59,
+      "days": 12,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
-          "school": "voera",
-          "report_date": "2020-05-17",
-          "source_file": "undated_[BUY] CJ제일제당_사재기는 거들뿐.md",
-          "target_price": 395000.0,
-          "stated_upside_pct": 28.0389
+          "school": "smic",
+          "report_date": "2020-05-31",
+          "source_file": "2020-05-31_Equity Research, SKC.md",
+          "target_price": 70292.0,
+          "stated_upside_pct": 30.9707
         }
       ]
     },
@@ -368,7 +368,7 @@
       "return_pct": -11.49,
       "days": 1,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 80≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -610,7 +610,7 @@
       "return_pct": 2.99,
       "days": 16,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 92≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -632,7 +632,7 @@
       "return_pct": -9.19,
       "days": 3,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -654,7 +654,7 @@
       "return_pct": 8.28,
       "days": 12,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -698,7 +698,7 @@
       "return_pct": 28.93,
       "days": 8,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 88≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 89≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -874,7 +874,7 @@
       "return_pct": 4.75,
       "days": 15,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "yig",
@@ -940,7 +940,7 @@
       "return_pct": -9.91,
       "days": 21,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -984,7 +984,7 @@
       "return_pct": -8.38,
       "days": 8,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "voera",
@@ -1006,7 +1006,7 @@
       "return_pct": -4.98,
       "days": 12,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 80≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1116,7 +1116,7 @@
       "return_pct": -6.82,
       "days": 10,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "yig",
@@ -1160,7 +1160,7 @@
       "return_pct": -4.21,
       "days": 10,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1358,7 +1358,7 @@
       "return_pct": -11.28,
       "days": 18,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 98≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 97≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1424,7 +1424,7 @@
       "return_pct": 0.95,
       "days": 13,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -1594,11 +1594,11 @@
       "market": "KR",
       "name": "천보",
       "entry_date": "2021-08-13",
-      "exit_date": "2021-09-06",
+      "exit_date": "2021-09-03",
       "entry_price": 242800.0,
-      "exit_price": 234500.0,
-      "return_pct": -4.0,
-      "days": 24,
+      "exit_price": 228300.0,
+      "return_pct": -6.54,
+      "days": 21,
       "exit_reason": "mtt_rs_exit_<82",
       "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 87≥80) → 익일 시가 진입",
       "trigger_reports": [
@@ -1820,7 +1820,7 @@
       "return_pct": 6.12,
       "days": 22,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 86≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 87≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -1864,7 +1864,7 @@
       "return_pct": 29.23,
       "days": 29,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -2142,7 +2142,7 @@
       "return_pct": 2.63,
       "days": 28,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 95≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 94≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -2769,7 +2769,7 @@
       "return_pct": -10.31,
       "days": 15,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3452,7 +3452,7 @@
       "return_pct": -10.84,
       "days": 4,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 86≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -3788,28 +3788,6 @@
           "source_file": "2023-04-08_[230408] 텔레칩스(054450).md",
           "target_price": 22310.0,
           "stated_upside_pct": 42.374
-        }
-      ]
-    },
-    {
-      "ticker": "085370",
-      "market": "KR",
-      "name": "루트로닉",
-      "entry_date": "2023-09-14",
-      "exit_date": "2023-09-26",
-      "entry_price": 37900.0,
-      "exit_price": 36700.0,
-      "return_pct": -3.75,
-      "days": 12,
-      "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 80≥80) → 익일 시가 진입",
-      "trigger_reports": [
-        {
-          "school": "star",
-          "report_date": "2022-05-28",
-          "source_file": "2022-05-28_STAR_루트로닉.md",
-          "target_price": 28950.0,
-          "stated_upside_pct": 20.8768
         }
       ]
     },
@@ -4203,7 +4181,7 @@
       "return_pct": 31.34,
       "days": 75,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 92≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -5625,7 +5603,7 @@
       "return_pct": 28.15,
       "days": 9,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 96≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 95≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -5806,7 +5784,7 @@
       "return_pct": 6.08,
       "days": 15,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 96≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 95≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -5835,7 +5813,7 @@
       "return_pct": -10.09,
       "days": 37,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 86≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -6103,7 +6081,7 @@
       "return_pct": -8.18,
       "days": 22,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 95≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 94≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -6277,7 +6255,7 @@
       "return_pct": -11.43,
       "days": 3,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -6798,7 +6776,7 @@
       "return_pct": 1.23,
       "days": 14,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "voera",
@@ -7606,7 +7584,7 @@
       "return_pct": 4.64,
       "days": 28,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 85≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 86≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "voera",
@@ -9138,7 +9116,7 @@
       "return_pct": -16.03,
       "days": 3,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -10541,7 +10519,7 @@
       "return_pct": -0.94,
       "days": 22,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 88≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 87≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -10983,7 +10961,7 @@
       "return_pct": -8.16,
       "days": 6,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -11077,7 +11055,7 @@
       "return_pct": -0.84,
       "days": 14,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 89≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 88≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -11585,7 +11563,7 @@
       "return_pct": 7.36,
       "days": 52,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 95≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 94≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -11760,7 +11738,7 @@
       "return_pct": -8.67,
       "days": 7,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 92≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -13158,7 +13136,7 @@
       "return_pct": 38.93,
       "days": 17,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 94≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 95≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -14191,7 +14169,7 @@
       "return_pct": -13.63,
       "days": 3,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -15182,7 +15160,7 @@
       "return_pct": 29.27,
       "days": 22,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -15776,7 +15754,7 @@
       "return_pct": -13.83,
       "days": 6,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 84≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -15891,7 +15869,7 @@
       "return_pct": 28.49,
       "days": 7,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -17451,7 +17429,7 @@
       "return_pct": 3.16,
       "days": 12,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -17776,7 +17754,7 @@
       "return_pct": 9.52,
       "days": 13,
       "exit_reason": "mtt_rs_exit_<82",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 82≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 83≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "ewha",
@@ -18376,7 +18354,7 @@
       "return_pct": -14.55,
       "days": 5,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 91≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -18629,7 +18607,7 @@
       "return_pct": 0.96,
       "days": 11,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 81≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 80≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "smic",
@@ -19092,7 +19070,7 @@
       "return_pct": 30.24,
       "days": 15,
       "exit_reason": "mtt_take_profit_3.5R",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 89≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "yig",
@@ -19215,7 +19193,7 @@
       "return_pct": -12.31,
       "days": 2,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 89≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 90≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "star",
@@ -19692,7 +19670,7 @@
       "return_pct": -9.69,
       "days": 4,
       "exit_reason": "mtt_stop",
-      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 92≥80) → 익일 시가 진입",
+      "entry_reason": "MTT 템플릿 통과 (close>50MA>150MA>200MA, 200MA 상승, 52주저점×1.9↑, 52주고점×0.95↑, RS 93≥80) → 익일 시가 진입",
       "trigger_reports": [
         {
           "school": "voera",
